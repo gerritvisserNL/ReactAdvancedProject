@@ -101,8 +101,9 @@ export const EventPage = () => {
           marginBottom="3rem"
           borderRadius="1rem"
           boxShadow="0px 4px 20px rgba(0, 0, 0, 0.2)"
-          width="36rem"
-          height="35rem"
+          width={["100%", "90%", "80%", "36rem"]}
+          mx="auto"
+          height="auto"
         >
           <Box textAlign="center" marginTop="1rem" marginBottom="1rem">
             <h2 style={{ fontWeight: "bold", fontSize: "2.5rem" }}>
